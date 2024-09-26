@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesas</title>
+
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <header class="menu">
+        <div class="menu__logo-container">
+            <img src="/assets/icons8-kawaii-french-fries-50.png" alt="logo">
+            <input type="text" placeholder="Buscador">
+            
+        </div>
+        <input id="menu" class="menu__desplegable" type="checkbox">
+        <label for="menu" class="material-symbols-outlined">Menu</label>
+        <nav class="menu__nav-container">
+            <ul class="menu__nav">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./promociones.html">Promociones</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./comentarios.html">Comentarios</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main class="formulario">
+        <section class="formulario__contactos">
+            <h3>Si queres ver mas cotenido completa el siguiente formulario</h3>
+            <p>Si te intesa mas de nuestros productos,compelta el siguiente formulario.Te informaremos sobre  las mejores promociones y descuentos dia a dia </p>
+
+        </section>
+        <form class="formulario__datos" action="">
+            <label for="nombre">Nombre Completo</label>
+            <input id="nombre" type="text" placeholder="Juan Carlos">
+            <label for="mail">Email</label>
+            <input type="email" placeholder="ejem@gmail.com" id="mail">
+            <label for="telefono">Telefono</label>
+            <input placeholder="1120837322" type="text" id="telefono">
+            <label for="direccion">Direccion</label>
+            <input type="text" id="direccion" placeholder="Av.Argentina">
+            <label for="comentario">Comentario</label>
+            <textarea name="datos" id="comentario" placeholder="deja aqui tu comentario..."></textarea>
+            <label for="seleccion">seleccion interes
+                <select name="tipo de dato" id="seleccion">
+                    <option value="user1">Descuentos</option>
+                    <option value="user2">Empleo</option>
+                    <option value="user3">Premium</option>
+                </select>
+            </label>
+            <input class="formulario__datos__enviar" type="submit" value="ENVIAR">
+            <input  class="formulario__datos__resetear" type="reset" value="RESET">
+            
+        </form>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__politicas">
+            <p>Politica de Privacidad</p>
+            <p>Defensa del Consumidor</p>
+            <p>Proteccion datos personales</p>
+            <p>Contacto</p>
+        </div>
+        <div class="footer__redes">
+            <div class="footer__redes-container">
+                <div class="footer__redes__container"><img src="/assets/icons8-facebook-nuevo-50.png" alt="facebook"></div>
+                <div class="footer__redes__container"><img src="/assets/icons8-instagram-50.png" alt="ig"></div>
+                <div class="footer__redes__container"><img src="/assets/icons8-youtube-50.png" alt="youtube"></div>
+            </div>
+            <div class="footer__logo">
+                <div class="footer__logo__container">
+                    <img src="/assets/icons8-kawaii-french-fries-50.png" alt="logo">
+                </div>  
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
