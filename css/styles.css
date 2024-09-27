@@ -355,7 +355,7 @@ gap: 30px;
     justify-content: center;
     background-color: rgb(85, 0, 0);
     flex-wrap: wrap;
-    min-height: 700px;
+    min-height: 90vh;
 }
 
 .formulario .formulario__contactos{
@@ -378,7 +378,7 @@ gap: 30px;
 
 .formulario .formulario__datos{
     max-width: 400px;
-    width: 400px;
+    
     padding: 20px;
     color: aliceblue;
     margin: auto; /* margin al item hijo auto, afecta el centrado en flex*/
@@ -525,6 +525,7 @@ gap: 30px;
     
 }
 
+/*Media Queries--------------------------Queries*/
 @media screen and (max-width:900px) {
     .menu .menu__nav-container {
         display: none;
@@ -564,11 +565,17 @@ gap: 30px;
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:380px){
     .formulario .formulario__datos{
         min-width: 300px;
     }
     .formulario .formulario__contactos{
         min-width: 300px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .formulario{
+        
     }
 }
