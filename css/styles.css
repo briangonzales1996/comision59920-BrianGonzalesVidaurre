@@ -90,7 +90,7 @@ body{
 /*main titulo y fondo de la pagina */
 .main{
     
-    background-image: url(/assets/Comer-hamburguesa-puede-ser-saludable.webp);
+    background-image: url(../assets/Comer-hamburguesa-puede-ser-saludable.webp);
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -359,7 +359,7 @@ gap: 30px;
 }
 
 .formulario .formulario__contactos{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364),rgba(0, 0, 0, 0.485)),url(/assets/hamburguesa-gigante-varias-hamburguesas_783299-2228.avif);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364),rgba(0, 0, 0, 0.485)),url(../assets/hamburguesa-gigante-varias-hamburguesas_783299-2228.avif);
     background-size:cover;
     max-width: 750px;
     
@@ -435,7 +435,7 @@ gap: 30px;
 /*Nosotros----------Nosotros*/
 
 .nosotros{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.581),rgba(0, 0, 0, 0.674)),url(/assets/imagen-fondo-nosotros.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.581),rgba(0, 0, 0, 0.674)),url(../assets/imagen-fondo-nosotros.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
