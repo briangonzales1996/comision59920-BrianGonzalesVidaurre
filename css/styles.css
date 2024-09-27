@@ -365,7 +365,7 @@ gap: 30px;
     
     flex-grow: 1;
     flex-basis: 0;
-    min-width: 400px;
+    min-width: 700px;
     color: aliceblue;
     font-size: 1.5rem;
     padding: 100px 70px;
@@ -377,14 +377,14 @@ gap: 30px;
 }
 
 .formulario .formulario__datos{
-    max-width: 400px;
     
+    max-width: 500px;
     padding: 20px;
     color: aliceblue;
     margin: auto; /* margin al item hijo auto, afecta el centrado en flex*/
     flex-grow: 1;
     flex-basis: 0;
-    min-width: 400px;
+    min-width:700px;
 }
 .formulario .formulario__datos label{
     display: block;
@@ -565,7 +565,7 @@ gap: 30px;
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:430px){
     .formulario .formulario__datos{
         min-width: 300px;
     }
@@ -574,8 +574,3 @@ gap: 30px;
     }
 }
 
-@media screen and (max-width:1024px){
-    .formulario{
-        
-    }
-}
