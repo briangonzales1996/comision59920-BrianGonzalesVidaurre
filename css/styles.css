@@ -243,7 +243,7 @@ body{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255); 
     text-align: center;
-    padding: 80px 20px;
+    padding: 80px 15px;
     padding-bottom: 120px;
 }
 
@@ -592,10 +592,10 @@ background-color: rgba(18, 18, 18, 0.751);
     .menu .menu__nav-container {
         
         position: absolute;
-        right: 0;
+        left: 0;
         top: 66px;
         background-color: rgb(97, 1, 1);
-        width: 100%;
+        
         
         translate: 0 -126%;
         transition: menu .1s linear;
@@ -609,15 +609,17 @@ background-color: rgba(18, 18, 18, 0.751);
         flex-direction: column;
         
         display: none;
+        
     }
     .menu .menu__nav-container ul{
         gap: 0;
     }
     .menu .menu__nav-container ul>li{
         padding:15px 10px ;
-        border-right: solid 1px white; 
+        
         box-shadow: 2px 0px 1px white;
     }
+
     .menu .menu__desplegable:checked ~ .menu__nav-container{
         display: flex;
         
@@ -659,6 +661,15 @@ background-color: rgba(18, 18, 18, 0.751);
     }
     .formulario .formulario__contactos{
         min-width: 300px;
+    }
+
+    .menu .menu__nav-container{
+        width: 100%;
+    }
+
+    .menu__nav-container .menu__nav{
+        width: 100%;
+        text-align: center;
     }
 }
 
