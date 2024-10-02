@@ -74,7 +74,7 @@ body{
 
 .menu .menu__nav-container ul li{
     font-size: inherit;
-    padding: 5px;
+    padding: 8px;
     
     
 }
@@ -107,7 +107,7 @@ body{
     
     background-image: url(../assets/Comer-hamburguesa-puede-ser-saludable.webp);
     background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main .main__presentacion{
@@ -129,6 +129,7 @@ body{
     font-size: 1.5rem;
     max-width: 650px;
     width: 90%;
+    
 }
 
 
@@ -147,6 +148,8 @@ body{
     color: aliceblue;
     font-size: 2rem;
     margin-left: 2rem;
+    text-align: center;
+    font-weight: 500;
     
 }
 
@@ -272,33 +275,33 @@ gap: 30px;
     max-width: 500px;
     
 }
-.seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios:hover{
-    background-color: rgba(0, 0, 0, 0.549);
-}
-.seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios:hover img{
-    opacity: 0.5;
-}
+
+
+
 .seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios .seccion__valoracion__comentarios__calificacion{
+    display: flex;
     
-    max-width:500px;
-    min-height: 70px;
+    justify-content: center;
+    height: 70px;
+    flex-wrap:wrap ;
     
 }
 
 .seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios .seccion__valoracion__comentarios__calificacion .seccion__valoracion__comentarios__calificacion__perfil{
-   max-width: 100px;
+   max-width: 30%;
     height: 100%;
 }
 
 
 .seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios .seccion__valoracion__comentarios__calificacion .seccion__valoracion__comentarios__calificacion__estrellas{
-    max-width: 100%;
-    width: 300px;
+    max-width: 70%;
+   
     height: 100%;
 }
 
 .seccion .seccion-container .seccion__valoracion .seccion__valoracion__comentarios .seccion__valoracion__comentarios__parrafo{
-    font-size: 1.2rem;
+    margin-top: 5px;
+    font-size: 1.1rem;
     max-width: 400px;
 }
 
