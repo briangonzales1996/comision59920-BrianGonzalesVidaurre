@@ -10,7 +10,7 @@ body{
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(131, 8, 8);
+    background-color: rgb(97, 1, 1);
     align-items: center;
     padding: 0.5rem 2rem ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,7 +27,6 @@ body{
     flex-grow: 1;
     flex-basis: 0;  /*ojo:si aplico grow al los elemntos, el flex padre no funciona el justify,pero los hijos de ese elemento si puedo aplicar justife y aling*/
     min-width: 100px;
-   
     
 }
 
@@ -48,7 +47,7 @@ body{
     min-width: 100px;
 }
 .menu .menu__logo-container input:hover{
-    background-color: white;
+    background-color: rgba(18, 18, 18, 0.751);
 }
 
 
@@ -135,7 +134,7 @@ body{
 
 /*main promociones seccion de productos recomendados------*/
 .producto-container{
-    background-color: rgb(85, 0, 0);
+    background-color: rgb(0, 0, 0);
     padding-top: 3rem;
     padding-bottom:3rem ;
     display: flex;
@@ -170,7 +169,7 @@ body{
 }
 
 .producto-container .producto .producto__item .producto__item__descripcion{
-    background-color: rgba(2, 2, 2, 0.71);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -179,6 +178,10 @@ body{
     border-radius: 10px;
     margin-bottom: 10px;
     margin: 10px;
+}
+
+.producto-container .producto .producto__item .producto__item__descripcion:hover{
+    background-color: rgba(24, 24, 24, 0.578);
 }
 
 .producto-container .producto .producto__item .producto__item__descripcion h3{
@@ -195,12 +198,13 @@ body{
     text-decoration: none;
     color: aliceblue;
     background-color: black;
+    border: solid 1px rgb(255, 255, 255);
     width: fit-content;
     padding: 10px;
     margin: auto;
 
 }
-.producto-container .producto .producto__item .producto__item__descripcion a:hover{
+.producto-container .producto .producto__item .producto__item__descripcion a:hover  {
     background-color: rgba(159, 158, 158, 0.642);
 }
 
@@ -233,8 +237,8 @@ body{
 /*seccion, apartado de comentarios y porcentajes de los mas consumido*/
 
 .seccion{
-    background-color: rgb(92, 4, 4);
-    color: antiquewhite; 
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
     text-align: center;
     padding: 80px 20px;
     padding-bottom: 120px;
@@ -317,7 +321,7 @@ gap: 30px;
 }
 
 .seccion .seccion__porcentajes .seccion__porcentajes__item div{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(95, 0, 0);
     min-height: 45px;
     text-align: center;
     margin-top: 20px;
@@ -325,7 +329,7 @@ gap: 30px;
     padding: 5px;
 }
 .seccion .seccion__porcentajes .seccion__porcentajes__item div:hover{
-    background-color: rgba(11, 11, 11, 0.922);
+    background-color: rgba(95, 0, 0, 0.725);
 
 }
 
@@ -337,7 +341,7 @@ gap: 30px;
 
 /*seccion de lista dee menus disponibles*/
 .lista{
-    background-color: rgb(85, 0, 0);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +367,7 @@ gap: 30px;
     min-height: 200px;
 }
 .lista .lista__comida-rapida .lista__comida-rapida__item:hover{
-    border: 1px solid wheat;
+    border: 2px solid rgb(255, 255, 255);
     color: rgba(245, 245, 220, 0.811);
 }
 
@@ -390,7 +394,7 @@ gap: 30px;
 .formulario{
     display:  flex;
     justify-content: center;
-    background-color: rgb(85, 0, 0);
+    background-color: rgb(0, 0, 0);
     flex-wrap: wrap;
     min-height: 90vh;
 }
@@ -440,6 +444,10 @@ gap: 30px;
     padding: 5px;
 }
 
+.formulario .formulario__datos input:hover, .formulario .formulario__datos textarea:hover,.formulario .formulario__datos label select:hover{
+background-color: rgba(18, 18, 18, 0.751);
+}
+
 .formulario .formulario__datos textarea{
     max-width: 50%;
     min-width: 70%;
@@ -461,11 +469,11 @@ gap: 30px;
 
 .formulario .formulario__datos .formulario__datos__enviar{
     margin-top: 20px;
-    box-shadow: 3px 3px 5px white;
+    box-shadow: 2px 2px 2px white;
 }
 
 .formulario .formulario__datos .formulario__datos__resetear{
-    box-shadow: 3px 3px 5px white;
+    box-shadow: 2px 2px 2px white;
 }
 
 
@@ -536,7 +544,7 @@ gap: 30px;
 
 .footer{
     padding: 0.3rem 3rem;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(15, 15, 15);
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
@@ -583,7 +591,7 @@ gap: 30px;
         position: absolute;
         right: 0;
         top: 66px;
-        background-color: rgb(131, 8, 8);
+        background-color: rgb(97, 1, 1);
         width: 100%;
         
         translate: 0 -126%;
